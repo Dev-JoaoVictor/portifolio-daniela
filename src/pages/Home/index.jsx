@@ -1,7 +1,20 @@
 import Perfil from "../../assets/perfil.jpg";
-import { Container, About } from "./styles";
+import {
+  SiAdobepremierepro,
+  SiAdobeillustrator,
+  SiAdobeindesign,
+  SiAdobephotoshop,
+} from "react-icons/si";
+import { Container, About, Skills } from "./styles";
 import { Header } from "../../Components/Header";
 import { Section } from "../../components/Section";
+
+const skills = [
+  { name: "Premie", icon: SiAdobepremierepro },
+  { name: "Illustrator", icon: SiAdobeillustrator },
+  { name: "Indesign", icon: SiAdobeindesign },
+  { name: "Photoshop", icon: SiAdobephotoshop },
+];
 
 export function Home() {
   return (
@@ -16,7 +29,14 @@ export function Home() {
           </p>
         </About>
         <Section title="Habilidades">
-
+          <Skills>
+            {skills.map((skill, index) => (
+              <li key={index}>
+                <skill.icon />
+                <span>{skill.name}</span>
+              </li>
+            ))}
+          </Skills>
         </Section>
       </main>
     </Container>

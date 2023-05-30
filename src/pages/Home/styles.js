@@ -28,3 +28,24 @@ export const About = styled.div`
     font-size: 1.5rem;
   }
 `;
+
+export const Skills = styled.ul`
+  display: flex;
+  gap: 3rem;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  margin-top: 2rem;
+  list-style: none;
+
+  > li {
+    display: flex;
+    gap: 0.5rem;
+    flex-direction: column;
+    align-items: center;
+
+    > svg {
+      font-size: 3rem;
+    }
+  }
+`;
