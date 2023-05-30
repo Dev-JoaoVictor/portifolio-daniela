@@ -7,8 +7,7 @@ import {
 } from "react-icons/si";
 
 import { Section } from "../../components/Section";
-import { Header } from "../../Components/Header";
-
+import { Header } from "../../components/Header";
 import { Container, About, Skills } from "./styles";
 
 const skills = [
