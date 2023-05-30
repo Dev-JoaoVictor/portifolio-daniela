@@ -18,13 +18,13 @@ export function Skills() {
     <Container>
       <h2>Habilidades</h2>
       <List>
-      {skills.map((skill, index) => (
-        <li key={index}>
-          <skill.icon />
-          <span>{skill.name}</span>
-        </li>
-      ))}
-    </List>
+        {skills.map((skill, index) => (
+          <li key={index}>
+            <skill.icon />
+            <span>{skill.name}</span>
+          </li>
+        ))}
+      </List>
     </Container>
   );
 }
