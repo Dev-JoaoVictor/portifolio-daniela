@@ -1,9 +1,8 @@
 import Perfil from "../../assets/perfil.jpg";
-import {SiAdobeillustrator} from "react-icons/si"
 
 import { Container, About } from "./styles";
+import { Section} from "../../components/Section";
 import { Header } from "../../Components/Header";
-import { Section } from "../../components/Section";
 import { Skills } from "../../components/Skills";
 
 export function Home() {
