@@ -6,9 +6,9 @@ import {
   SiAdobephotoshop,
 } from "react-icons/si";
 
-import { Header } from "../../components/Header";
-import { Section } from "../../components/Section";
 import { Container, About, Skills } from "./styles";
+import { Header } from "../../components/Header";
+// import { Section } from "../../components/Section";
 
 const skills = [
   { name: "Premie", icon: SiAdobepremierepro },
@@ -29,7 +29,7 @@ export function Home() {
             de Comunicação Visual.
           </p>
         </About>
-        <Section title="Habilidades">
+        {/* <Section title="Habilidades">
           <Skills>
             {skills.map((skill, index) => (
               <li key={index}>
@@ -38,7 +38,7 @@ export function Home() {
               </li>
             ))}
           </Skills>
-        </Section>
+        </Section> */}
       </main>
     </Container>
   );
