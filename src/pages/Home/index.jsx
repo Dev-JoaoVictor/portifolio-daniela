@@ -1,7 +1,6 @@
 import Perfil from "../../assets/perfil.jpg";
 import { Container, About } from "./styles";
 import { Header } from "../../Components/Header";
-import { Skills } from "../../components/Skills";
 
 export function Home() {
   return (
@@ -15,7 +14,6 @@ export function Home() {
             de Comunicação Visual.
           </p>
         </About>
-        <Skills />
       </main>
     </Container>
   );
