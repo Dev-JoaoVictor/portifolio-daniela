@@ -1,6 +1,7 @@
 import Perfil from "../../assets/perfil.jpg";
 import { Container, About } from "./styles";
 import { Header } from "../../Components/Header";
+import { Section } from "../../components/Section";
 
 export function Home() {
   return (
@@ -14,6 +15,9 @@ export function Home() {
             de Comunicação Visual.
           </p>
         </About>
+        <Section title="Habilidades">
+
+        </Section>
       </main>
     </Container>
   );

@@ -6,8 +6,7 @@ export const Container = styled.div`
   > main {
     display: grid;
     gap: 5rem;
-    padding: 0 1rem;
-    margin-top: 3rem;
+    padding: 3rem 2rem 0;
   }
 `;
 
