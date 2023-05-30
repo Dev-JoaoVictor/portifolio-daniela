@@ -1,4 +1,4 @@
-import { Container } from "./styles";
+import { Container, List } from "./styles";
 import {
   SiAdobeillustrator,
   SiAdobeindesign,
@@ -16,12 +16,15 @@ const skills = [
 export function Skills() {
   return (
     <Container>
+      <h2>Habilidades</h2>
+      <List>
       {skills.map((skill, index) => (
         <li key={index}>
           <skill.icon />
           <span>{skill.name}</span>
         </li>
       ))}
+    </List>
     </Container>
   );
 }

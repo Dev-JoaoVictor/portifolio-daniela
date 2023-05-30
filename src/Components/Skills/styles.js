@@ -1,25 +1,33 @@
 import styled from "styled-components";
 
-export const Container = styled.ul`
-  display: flex;
+export const Container = styled.div`
+  display: grid;
   justify-content: center;
-  flex-wrap: wrap;
-  gap: 2rem;
+  text-align: center;
+
+  > h2 {
+    font-size: 3rem;
+  }
+`;
+
+export const List = styled.ul`
+  display: flex;
+  gap: 3rem;
   list-style: none;
 
   margin-top: 3rem;
 
-  > li { 
-
+  > li {
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
 
+    gap: 0.5rem;
+    font-size: 1.3rem;
+    flex-direction: column;
+
     > svg {
-      font-size: 4rem;
+      font-size: 3rem;
     }
   }
-  
-  
 `;

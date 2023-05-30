@@ -1,7 +1,6 @@
 import Perfil from "../../assets/perfil.jpg";
 
 import { Container, About } from "./styles";
-import { Section} from "../../components/Section";
 import { Header } from "../../Components/Header";
 import { Skills } from "../../components/Skills";
 
@@ -17,9 +16,7 @@ export function Home() {
             de Comunicação Visual.
           </p>
         </About>
-        <Section title="Habilidades">
           <Skills/>
-        </Section>
       </main>
     </Container>
   );
