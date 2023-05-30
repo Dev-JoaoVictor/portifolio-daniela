@@ -7,7 +7,7 @@ import {
 } from "react-icons/si";
 
 import { Container, About, Skills } from "./styles";
-import { Header } from "../../components/Header";
+// import { Header } from "../../components/Header";
 // import { Section } from "../../components/Section";
 
 const skills = [
@@ -20,7 +20,7 @@ const skills = [
 export function Home() {
   return (
     <Container>
-      <Header />
+      {/* <Header /> */}
       <main>
         <About>
           <img src={Perfil} alt="Foto de daniela" />
