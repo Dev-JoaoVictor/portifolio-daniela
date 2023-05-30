@@ -6,8 +6,8 @@ import {
   SiAdobephotoshop,
 } from "react-icons/si";
 
-import { Section } from "../../components/Section";
 import { Header } from "../../components/Header";
+import { Section } from "../../components/Section";
 import { Container, About, Skills } from "./styles";
 
 const skills = [
@@ -38,8 +38,6 @@ export function Home() {
               </li>
             ))}
           </Skills>
-        </Section>
-        <Section title="Projetos">
         </Section>
       </main>
     </Container>
