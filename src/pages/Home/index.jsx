@@ -38,6 +38,8 @@ export function Home() {
             ))}
           </Skills>
         </Section>
+        <Section title="Projetos">
+        </Section>
       </main>
     </Container>
   );

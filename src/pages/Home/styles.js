@@ -5,6 +5,7 @@ export const Container = styled.div`
 
   > main {
     display: grid;
+    place-content: center;
     gap: 5rem;
     padding: 3rem 2rem 0;
   }
