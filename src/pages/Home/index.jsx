@@ -5,9 +5,11 @@ import {
   SiAdobeindesign,
   SiAdobephotoshop,
 } from "react-icons/si";
-import { Container, About, Skills } from "./styles";
-import { Header } from "../../Components/Header";
+
 import { Section } from "../../components/Section";
+import { Header } from "../../Components/Header";
+
+import { Container, About, Skills } from "./styles";
 
 const skills = [
   { name: "Premie", icon: SiAdobepremierepro },
