@@ -4,6 +4,8 @@ export const Container = styled.div`
   height: 100vh;
 
   > main {
+    display: grid;
+    gap: 5rem;
     padding: 0 1rem;
     margin-top: 3rem;
   }
