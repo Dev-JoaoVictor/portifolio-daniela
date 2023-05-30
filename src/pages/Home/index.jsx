@@ -7,8 +7,8 @@ import {
 } from "react-icons/si";
 
 import { Container, About, Skills } from "./styles";
-import { Header } from "../../components/Header/index";
-import { Section } from "../../components/Section/index";
+import { Header } from "../../components/Header/index.jsx";
+import { Section } from "../../components/Section/index.jsx";
 
 const skills = [
   { name: "Premie", icon: SiAdobepremierepro },
