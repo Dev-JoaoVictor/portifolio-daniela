@@ -1,9 +1,10 @@
 import Perfil from "../../assets/perfil.jpg";
-import { Container, About } from "./styles";
-import {SiAdobeindesign} from 'react-icons/si'
+import {SiAdobeillustrator} from "react-icons/si"
 
+import { Container, About } from "./styles";
 import { Header } from "../../Components/Header";
 import { Section } from "../../components/Section";
+import { Skills } from "../../components/Skills";
 
 export function Home() {
   return (
@@ -18,6 +19,7 @@ export function Home() {
           </p>
         </About>
         <Section title="Habilidades">
+          <Skills/>
         </Section>
       </main>
     </Container>
