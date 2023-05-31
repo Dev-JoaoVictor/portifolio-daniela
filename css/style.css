@@ -1,0 +1,31 @@
+@import url('./header.css');
+@import url('./about.css');
+@import url('./skills.css');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto Slab", serif;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #f1f1f1;
+}
+
+main {
+  display: grid;
+  place-content: center;
+  gap: 5rem;
+  padding: 3rem 2rem 0;
+}
+
+button {
+  border: none;
+  background-color: none;
+}
