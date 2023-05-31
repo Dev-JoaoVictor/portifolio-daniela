@@ -8,7 +8,7 @@
 }
 
 
-.logo p{
+.logo p, .photo p{
   margin: 4rem 0 0;
   margin-left: 2rem;
   font-size: 1.8rem;
@@ -19,6 +19,6 @@
   text-align: center;
 }
 
-.item img{
-  width: 1rem;
+.photo .item img {
+  height: 25rem;
 }
