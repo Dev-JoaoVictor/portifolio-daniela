@@ -6,7 +6,7 @@
   font-size: 2.4rem;
 }
 
-.skills-container {
+.skills-container, .contact-container {
   display: flex;
   margin-top: 3rem;
   justify-content: center;
@@ -14,17 +14,17 @@
   flex-wrap: wrap;
 }
 
-.skills-item {
+.skills-item, .contact-item {
   display: flex;
   align-items: center;
   flex-direction: column;
 }
 
-.skills-item img {
+.skills-item img, .contact-item img {
   width: 4.2rem;
   height: 4.2rem;
 }
 
-.skills-item span{
+.skills-item span, .contact-item p{
   font-size: 1.5rem;
 }

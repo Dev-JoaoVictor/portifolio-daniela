@@ -2,6 +2,7 @@
 @import url('./about.css');
 @import url('./skills.css');
 @import url('./projects.css');
+@import url('./footer.css');
 
 
 * {
@@ -29,4 +30,9 @@ main {
 button {
   border: none;
   background-color: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
 }
