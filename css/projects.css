@@ -1,5 +1,4 @@
 .projects {
-  height: 70rem;
   width: calc(100vw - 2rem);
 }
 
@@ -8,8 +7,10 @@
   font-size: 2.4rem;
 }
 
+
 .logo p{
-  margin: 5rem 0 2rem;
+  margin: 4rem 0 0;
+  margin-left: 2rem;
   font-size: 1.8rem;
 }
 
