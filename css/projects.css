@@ -9,9 +9,12 @@
 
 
 .logo p, .photo p{
-  margin: 4rem 0 0;
-  margin-left: 2rem;
   font-size: 1.8rem;
+}
+
+.projects-title{
+  margin-top: 2rem;
+  margin-left: 2rem;
 }
 
 .item {
@@ -20,5 +23,5 @@
 }
 
 .photo .item img {
-  height: 25rem;
+  
 }
