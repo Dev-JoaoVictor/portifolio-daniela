@@ -1,12 +1,14 @@
 .skills {
   text-align: center;
+  animation: leftRight 1s backwards;
 }
 
 .skills h1 {
   font-size: 2.4rem;
 }
 
-.skills-container, .contact-container {
+.skills-container,
+.contact-container {
   display: flex;
   margin-top: 3rem;
   justify-content: center;
@@ -14,17 +16,31 @@
   flex-wrap: wrap;
 }
 
-.skills-item, .contact-item {
+.skills-item,
+.contact-item {
   display: flex;
   align-items: center;
   flex-direction: column;
 }
 
-.skills-item img, .contact-item img {
+.skills-item img,
+.contact-item img {
   width: 4.2rem;
   height: 4.2rem;
 }
 
-.skills-item span, .contact-item p{
+.skills-item span,
+.contact-item p {
   font-size: 1.5rem;
+}
+
+@keyframes leftRight {
+  0%{
+    opacity: 0.1;
+    transform: translateX(-200px);
+  }
+  100%{
+    opacity: 1;
+    transform: translateX(0);
+  }
 }

@@ -1,5 +1,6 @@
 .projects {
   width: calc(100vw - 2rem);
+  animation: topdown 1s 300ms backwards;
 }
 
 .projects h2{
@@ -22,6 +23,13 @@
   text-align: center;
 }
 
-.photo .item img {
-  
+@keyframes topdown {
+  0% {
+    opacity: 0;
+    transform: translateY(-100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
