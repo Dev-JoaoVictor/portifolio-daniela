@@ -1,5 +1,6 @@
 .projects {
   width: calc(100vw - 2rem);
+  text-align: center;
   animation: topdown 1s 300ms backwards;
 }
 
