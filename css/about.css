@@ -1,15 +1,39 @@
 .about {
-  margin-top: 13rem;
-  display: grid;
-  gap: 2rem;
-  place-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  align-items: center;
   text-align: center;
 }
 
 .about img {
-  width: 28rem;
+  width: 25rem;
+  border-radius: 4rem;
 }
 
-.about p {
+.about-text {
+  display: grid;
+  height: 100%;
+  padding: 0 2rem;
+  text-align: justify;
+  gap: 2rem;
   font-size: 1.5rem;
+}
+
+@media screen and (min-width: 1024px) {
+  .about {
+    flex-direction: row;
+  }
+
+  .about img {
+    width: 30rem;
+  }
+  .about-text {
+    justify-content: space-between;
+    align-items: center;
+    width: 30rem;
+    margin: 0;
+    gap: 1rem;
+  }
 }
