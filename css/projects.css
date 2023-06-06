@@ -24,6 +24,11 @@
   text-align: center;
 }
 
+.item img {
+  box-shadow: 10px 12px 29px 0px rgba(0,0,0,0.75);
+  margin-bottom: 2rem;
+}
+
 @keyframes topdown {
   0% {
     opacity: 0;
