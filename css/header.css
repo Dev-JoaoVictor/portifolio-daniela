@@ -13,6 +13,17 @@ header img {
 header p {
   font-size: 2.4rem;
 }
+
+@media screen and (min-width: 768px ) {
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+  }
+}
+
+
 @media screen and (min-width: 1024px) {
   header {
     display: flex;
