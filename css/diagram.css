@@ -16,6 +16,7 @@
 .diagram img {
   width: 30rem;
   box-shadow: 10px 12px 29px 0px rgba(0,0,0,0.75);
+  transition: ease 0.3s;
 }
 
 .diagram-text {
@@ -52,5 +53,8 @@
   .diagram-text {
     font-size: 1.8rem;
     width: 35%;
+  }
+  .diagram img:hover {
+    transform: scale(1.1);
   }
 }
