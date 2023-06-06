@@ -7,3 +7,8 @@ footer {
 footer h2 {
   font-size: 2.4rem;
 }
+
+.contact-container {
+  display: flex;
+  flex-direction: column;
+}
