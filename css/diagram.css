@@ -1,0 +1,55 @@
+.diagram {
+  margin: 5rem 0;
+}
+
+.diagram-title {
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+}
+
+.diagram-container {
+  display: grid;
+  place-items: center;
+  gap: 2rem;
+}
+
+.diagram img {
+  width: 30rem;
+}
+
+.diagram-text {
+  display: grid;
+  place-items: center;
+  gap: 2rem;
+  padding: 0 2rem;
+
+  text-align: justify;
+  font-size: 1.6rem;
+}
+
+.diagram-text a {
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 50%;
+  padding: 2rem 0;
+  width: 50%;
+  transition: ease 0.3s;
+}
+
+.diagram-text a:hover {
+  background-color: black;
+  color: white;
+}
+
+@media screen and (min-width: 1024px) {
+  .diagram-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
+    gap: 0;
+  }
+  .diagram-text {
+    font-size: 1.8rem;
+    width: 35%;
+  }
+}
